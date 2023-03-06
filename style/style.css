@@ -80,4 +80,40 @@ hr{
     text-decoration: none;
     color: #562EFF;
 }
-/* lates course */
+/*-----------------
+    latest course 
+--------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.course-details img{
+    width: 266px;
+    height: 141px;
+}
+.course-title{
+    color: #1E1E1E;
+    font-size: 20.03px;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 14.6913px;
+    font-weight: 400;
+    /* font-family: Roboto; */
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-rating{
+    display: flex;
+}
+.filled{
+    color: #FFC014;
+}
+.empty{
+    color: #AEAEAE;
+}
+
